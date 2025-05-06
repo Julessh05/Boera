@@ -2,30 +2,55 @@
 //  ContentView.swift
 //  Boera
 //
-//  Created by Julian Schumacher on 05.05.25.
+//  Created by Julian Schumacher on 06.05.25.
 //
 
 import SwiftUI
-import SwiftData
+import CoreData
 
-struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-
+internal struct ContentView: View {
+    @Environment(\.managedObjectContext) private var viewContext
+    
+    @FetchRequest(
+        sortDescriptors: [NSSortDescriptor(keyPath: \DrinkEntry.timestamp, ascending: true)],
+        animation: .default
+    )
+    private var entries: FetchedResults<DrinkEntry>
+    
+    @State private var addEntryShown: Bool = false
+    
     var body: some View {
-        NavigationSplitView {
-            List {
-                
+        NavigationStack {
+            List(entries) {
+                entry in
+                entryContainer(entry)
+            }
+            .sheet(isPresented: $addEntryShown) {
+                AddEntrySheet()
             }
             .toolbar {
-                
+                ToolbarItem(placement: .primaryAction) {
+                    Button {
+                        addEntryShown.toggle()
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+                }
             }
-        } detail: {
-            Text("Select an item")
+            .navigationTitle("Hi")
+        }
+    }
+    
+    @ViewBuilder
+    private func entryContainer(_ entry : DrinkEntry) -> some View {
+        HStack {
+            Text("\(entry.amount) ml")
+            Spacer()
+            Text(entry.timestamp!, style: .date)
         }
     }
 }
 
 #Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+    ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
 }

@@ -6,154 +6,76 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		84FF9D582DC9055100920EF1 /* Boera Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 84FF9D382DC9055100920EF1 /* Boera Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		84FF9D172DC9041000920EF1 /* PBXContainerItemProxy */ = {
+		84FF9E7D2DC9FDF200920EF1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 84FF9CFD2DC9040F00920EF1 /* Project object */;
+			containerPortal = 84FF9E602DC9FDF100920EF1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 84FF9D042DC9040F00920EF1;
+			remoteGlobalIDString = 84FF9E672DC9FDF100920EF1;
 			remoteInfo = Boera;
 		};
-		84FF9D212DC9041000920EF1 /* PBXContainerItemProxy */ = {
+		84FF9E872DC9FDF200920EF1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 84FF9CFD2DC9040F00920EF1 /* Project object */;
+			containerPortal = 84FF9E602DC9FDF100920EF1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 84FF9D042DC9040F00920EF1;
+			remoteGlobalIDString = 84FF9E672DC9FDF100920EF1;
 			remoteInfo = Boera;
-		};
-		84FF9D452DC9055100920EF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84FF9CFD2DC9040F00920EF1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84FF9D372DC9055100920EF1;
-			remoteInfo = "Boera Watch Watch App";
-		};
-		84FF9D4F2DC9055100920EF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84FF9CFD2DC9040F00920EF1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84FF9D372DC9055100920EF1;
-			remoteInfo = "Boera Watch Watch App";
-		};
-		84FF9D562DC9055100920EF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84FF9CFD2DC9040F00920EF1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84FF9D372DC9055100920EF1;
-			remoteInfo = "Boera Watch Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		84FF9D5C2DC9055100920EF1 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				84FF9D582DC9055100920EF1 /* Boera Watch Watch App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		84FF9D052DC9040F00920EF1 /* Boera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boera.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84FF9D162DC9041000920EF1 /* BoeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84FF9D202DC9041000920EF1 /* BoeraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoeraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84FF9D382DC9055100920EF1 /* Boera Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boera Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84FF9D442DC9055100920EF1 /* Boera Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boera Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84FF9D4E2DC9055100920EF1 /* Boera Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boera Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FF9E682DC9FDF100920EF1 /* Boera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FF9E7C2DC9FDF200920EF1 /* BoeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FF9E862DC9FDF200920EF1 /* BoeraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoeraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		84FF9D282DC9041000920EF1 /* Exceptions for "Boera" folder in "Boera" target */ = {
+		84FF9E8E2DC9FDF200920EF1 /* Exceptions for "Boera" folder in "Boera" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 84FF9D042DC9040F00920EF1 /* Boera */;
+			target = 84FF9E672DC9FDF100920EF1 /* Boera */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		84FF9D072DC9040F00920EF1 /* Boera */ = {
+		84FF9E6A2DC9FDF100920EF1 /* Boera */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				84FF9D282DC9041000920EF1 /* Exceptions for "Boera" folder in "Boera" target */,
+				84FF9E8E2DC9FDF200920EF1 /* Exceptions for "Boera" folder in "Boera" target */,
 			);
 			path = Boera;
 			sourceTree = "<group>";
 		};
-		84FF9D192DC9041000920EF1 /* BoeraTests */ = {
+		84FF9E7F2DC9FDF200920EF1 /* BoeraTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BoeraTests;
 			sourceTree = "<group>";
 		};
-		84FF9D232DC9041000920EF1 /* BoeraUITests */ = {
+		84FF9E892DC9FDF200920EF1 /* BoeraUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BoeraUITests;
-			sourceTree = "<group>";
-		};
-		84FF9D392DC9055100920EF1 /* Boera Watch Watch App */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Boera Watch Watch App";
-			sourceTree = "<group>";
-		};
-		84FF9D472DC9055100920EF1 /* Boera Watch Watch AppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Boera Watch Watch AppTests";
-			sourceTree = "<group>";
-		};
-		84FF9D512DC9055100920EF1 /* Boera Watch Watch AppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Boera Watch Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84FF9D022DC9040F00920EF1 /* Frameworks */ = {
+		84FF9E652DC9FDF100920EF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84FF9D132DC9041000920EF1 /* Frameworks */ = {
+		84FF9E792DC9FDF200920EF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84FF9D1D2DC9041000920EF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84FF9D352DC9055100920EF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84FF9D412DC9055100920EF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84FF9D4B2DC9055100920EF1 /* Frameworks */ = {
+		84FF9E832DC9FDF200920EF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -163,28 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84FF9CFC2DC9040F00920EF1 = {
+		84FF9E5F2DC9FDF100920EF1 = {
 			isa = PBXGroup;
 			children = (
-				84FF9D072DC9040F00920EF1 /* Boera */,
-				84FF9D192DC9041000920EF1 /* BoeraTests */,
-				84FF9D232DC9041000920EF1 /* BoeraUITests */,
-				84FF9D392DC9055100920EF1 /* Boera Watch Watch App */,
-				84FF9D472DC9055100920EF1 /* Boera Watch Watch AppTests */,
-				84FF9D512DC9055100920EF1 /* Boera Watch Watch AppUITests */,
-				84FF9D062DC9040F00920EF1 /* Products */,
+				84FF9E6A2DC9FDF100920EF1 /* Boera */,
+				84FF9E7F2DC9FDF200920EF1 /* BoeraTests */,
+				84FF9E892DC9FDF200920EF1 /* BoeraUITests */,
+				84FF9E692DC9FDF100920EF1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		84FF9D062DC9040F00920EF1 /* Products */ = {
+		84FF9E692DC9FDF100920EF1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84FF9D052DC9040F00920EF1 /* Boera.app */,
-				84FF9D162DC9041000920EF1 /* BoeraTests.xctest */,
-				84FF9D202DC9041000920EF1 /* BoeraUITests.xctest */,
-				84FF9D382DC9055100920EF1 /* Boera Watch Watch App.app */,
-				84FF9D442DC9055100920EF1 /* Boera Watch Watch AppTests.xctest */,
-				84FF9D4E2DC9055100920EF1 /* Boera Watch Watch AppUITests.xctest */,
+				84FF9E682DC9FDF100920EF1 /* Boera.app */,
+				84FF9E7C2DC9FDF200920EF1 /* BoeraTests.xctest */,
+				84FF9E862DC9FDF200920EF1 /* BoeraUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,239 +108,136 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84FF9D042DC9040F00920EF1 /* Boera */ = {
+		84FF9E672DC9FDF100920EF1 /* Boera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FF9D292DC9041000920EF1 /* Build configuration list for PBXNativeTarget "Boera" */;
+			buildConfigurationList = 84FF9E8F2DC9FDF200920EF1 /* Build configuration list for PBXNativeTarget "Boera" */;
 			buildPhases = (
-				84FF9D012DC9040F00920EF1 /* Sources */,
-				84FF9D022DC9040F00920EF1 /* Frameworks */,
-				84FF9D032DC9040F00920EF1 /* Resources */,
-				84FF9D5C2DC9055100920EF1 /* Embed Watch Content */,
+				84FF9E642DC9FDF100920EF1 /* Sources */,
+				84FF9E652DC9FDF100920EF1 /* Frameworks */,
+				84FF9E662DC9FDF100920EF1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				84FF9D572DC9055100920EF1 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				84FF9D072DC9040F00920EF1 /* Boera */,
+				84FF9E6A2DC9FDF100920EF1 /* Boera */,
 			);
 			name = Boera;
 			packageProductDependencies = (
 			);
 			productName = Boera;
-			productReference = 84FF9D052DC9040F00920EF1 /* Boera.app */;
+			productReference = 84FF9E682DC9FDF100920EF1 /* Boera.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84FF9D152DC9041000920EF1 /* BoeraTests */ = {
+		84FF9E7B2DC9FDF200920EF1 /* BoeraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FF9D2E2DC9041000920EF1 /* Build configuration list for PBXNativeTarget "BoeraTests" */;
+			buildConfigurationList = 84FF9E942DC9FDF200920EF1 /* Build configuration list for PBXNativeTarget "BoeraTests" */;
 			buildPhases = (
-				84FF9D122DC9041000920EF1 /* Sources */,
-				84FF9D132DC9041000920EF1 /* Frameworks */,
-				84FF9D142DC9041000920EF1 /* Resources */,
+				84FF9E782DC9FDF200920EF1 /* Sources */,
+				84FF9E792DC9FDF200920EF1 /* Frameworks */,
+				84FF9E7A2DC9FDF200920EF1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				84FF9D182DC9041000920EF1 /* PBXTargetDependency */,
+				84FF9E7E2DC9FDF200920EF1 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				84FF9D192DC9041000920EF1 /* BoeraTests */,
+				84FF9E7F2DC9FDF200920EF1 /* BoeraTests */,
 			);
 			name = BoeraTests;
 			packageProductDependencies = (
 			);
 			productName = BoeraTests;
-			productReference = 84FF9D162DC9041000920EF1 /* BoeraTests.xctest */;
+			productReference = 84FF9E7C2DC9FDF200920EF1 /* BoeraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84FF9D1F2DC9041000920EF1 /* BoeraUITests */ = {
+		84FF9E852DC9FDF200920EF1 /* BoeraUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FF9D312DC9041000920EF1 /* Build configuration list for PBXNativeTarget "BoeraUITests" */;
+			buildConfigurationList = 84FF9E972DC9FDF200920EF1 /* Build configuration list for PBXNativeTarget "BoeraUITests" */;
 			buildPhases = (
-				84FF9D1C2DC9041000920EF1 /* Sources */,
-				84FF9D1D2DC9041000920EF1 /* Frameworks */,
-				84FF9D1E2DC9041000920EF1 /* Resources */,
+				84FF9E822DC9FDF200920EF1 /* Sources */,
+				84FF9E832DC9FDF200920EF1 /* Frameworks */,
+				84FF9E842DC9FDF200920EF1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				84FF9D222DC9041000920EF1 /* PBXTargetDependency */,
+				84FF9E882DC9FDF200920EF1 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				84FF9D232DC9041000920EF1 /* BoeraUITests */,
+				84FF9E892DC9FDF200920EF1 /* BoeraUITests */,
 			);
 			name = BoeraUITests;
 			packageProductDependencies = (
 			);
 			productName = BoeraUITests;
-			productReference = 84FF9D202DC9041000920EF1 /* BoeraUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		84FF9D372DC9055100920EF1 /* Boera Watch Watch App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84FF9D592DC9055100920EF1 /* Build configuration list for PBXNativeTarget "Boera Watch Watch App" */;
-			buildPhases = (
-				84FF9D342DC9055100920EF1 /* Sources */,
-				84FF9D352DC9055100920EF1 /* Frameworks */,
-				84FF9D362DC9055100920EF1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				84FF9D392DC9055100920EF1 /* Boera Watch Watch App */,
-			);
-			name = "Boera Watch Watch App";
-			packageProductDependencies = (
-			);
-			productName = "Boera Watch Watch App";
-			productReference = 84FF9D382DC9055100920EF1 /* Boera Watch Watch App.app */;
-			productType = "com.apple.product-type.application";
-		};
-		84FF9D432DC9055100920EF1 /* Boera Watch Watch AppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84FF9D5D2DC9055100920EF1 /* Build configuration list for PBXNativeTarget "Boera Watch Watch AppTests" */;
-			buildPhases = (
-				84FF9D402DC9055100920EF1 /* Sources */,
-				84FF9D412DC9055100920EF1 /* Frameworks */,
-				84FF9D422DC9055100920EF1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84FF9D462DC9055100920EF1 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				84FF9D472DC9055100920EF1 /* Boera Watch Watch AppTests */,
-			);
-			name = "Boera Watch Watch AppTests";
-			packageProductDependencies = (
-			);
-			productName = "Boera Watch Watch AppTests";
-			productReference = 84FF9D442DC9055100920EF1 /* Boera Watch Watch AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		84FF9D4D2DC9055100920EF1 /* Boera Watch Watch AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84FF9D602DC9055100920EF1 /* Build configuration list for PBXNativeTarget "Boera Watch Watch AppUITests" */;
-			buildPhases = (
-				84FF9D4A2DC9055100920EF1 /* Sources */,
-				84FF9D4B2DC9055100920EF1 /* Frameworks */,
-				84FF9D4C2DC9055100920EF1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84FF9D502DC9055100920EF1 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				84FF9D512DC9055100920EF1 /* Boera Watch Watch AppUITests */,
-			);
-			name = "Boera Watch Watch AppUITests";
-			packageProductDependencies = (
-			);
-			productName = "Boera Watch Watch AppUITests";
-			productReference = 84FF9D4E2DC9055100920EF1 /* Boera Watch Watch AppUITests.xctest */;
+			productReference = 84FF9E862DC9FDF200920EF1 /* BoeraUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		84FF9CFD2DC9040F00920EF1 /* Project object */ = {
+		84FF9E602DC9FDF100920EF1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					84FF9D042DC9040F00920EF1 = {
+					84FF9E672DC9FDF100920EF1 = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					84FF9D152DC9041000920EF1 = {
+					84FF9E7B2DC9FDF200920EF1 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 84FF9D042DC9040F00920EF1;
+						TestTargetID = 84FF9E672DC9FDF100920EF1;
 					};
-					84FF9D1F2DC9041000920EF1 = {
+					84FF9E852DC9FDF200920EF1 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 84FF9D042DC9040F00920EF1;
-					};
-					84FF9D372DC9055100920EF1 = {
-						CreatedOnToolsVersion = 16.3;
-					};
-					84FF9D432DC9055100920EF1 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 84FF9D372DC9055100920EF1;
-					};
-					84FF9D4D2DC9055100920EF1 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 84FF9D372DC9055100920EF1;
+						TestTargetID = 84FF9E672DC9FDF100920EF1;
 					};
 				};
 			};
-			buildConfigurationList = 84FF9D002DC9040F00920EF1 /* Build configuration list for PBXProject "Boera" */;
+			buildConfigurationList = 84FF9E632DC9FDF100920EF1 /* Build configuration list for PBXProject "Boera" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				de,
+				fr,
 			);
-			mainGroup = 84FF9CFC2DC9040F00920EF1;
+			mainGroup = 84FF9E5F2DC9FDF100920EF1;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 84FF9D062DC9040F00920EF1 /* Products */;
+			productRefGroup = 84FF9E692DC9FDF100920EF1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84FF9D042DC9040F00920EF1 /* Boera */,
-				84FF9D152DC9041000920EF1 /* BoeraTests */,
-				84FF9D1F2DC9041000920EF1 /* BoeraUITests */,
-				84FF9D372DC9055100920EF1 /* Boera Watch Watch App */,
-				84FF9D432DC9055100920EF1 /* Boera Watch Watch AppTests */,
-				84FF9D4D2DC9055100920EF1 /* Boera Watch Watch AppUITests */,
+				84FF9E672DC9FDF100920EF1 /* Boera */,
+				84FF9E7B2DC9FDF200920EF1 /* BoeraTests */,
+				84FF9E852DC9FDF200920EF1 /* BoeraUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84FF9D032DC9040F00920EF1 /* Resources */ = {
+		84FF9E662DC9FDF100920EF1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84FF9D142DC9041000920EF1 /* Resources */ = {
+		84FF9E7A2DC9FDF200920EF1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84FF9D1E2DC9041000920EF1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84FF9D362DC9055100920EF1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84FF9D422DC9055100920EF1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84FF9D4C2DC9055100920EF1 /* Resources */ = {
+		84FF9E842DC9FDF200920EF1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -434,42 +247,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		84FF9D012DC9040F00920EF1 /* Sources */ = {
+		84FF9E642DC9FDF100920EF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84FF9D122DC9041000920EF1 /* Sources */ = {
+		84FF9E782DC9FDF200920EF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84FF9D1C2DC9041000920EF1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84FF9D342DC9055100920EF1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84FF9D402DC9055100920EF1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84FF9D4A2DC9055100920EF1 /* Sources */ = {
+		84FF9E822DC9FDF200920EF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -479,35 +271,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		84FF9D182DC9041000920EF1 /* PBXTargetDependency */ = {
+		84FF9E7E2DC9FDF200920EF1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84FF9D042DC9040F00920EF1 /* Boera */;
-			targetProxy = 84FF9D172DC9041000920EF1 /* PBXContainerItemProxy */;
+			target = 84FF9E672DC9FDF100920EF1 /* Boera */;
+			targetProxy = 84FF9E7D2DC9FDF200920EF1 /* PBXContainerItemProxy */;
 		};
-		84FF9D222DC9041000920EF1 /* PBXTargetDependency */ = {
+		84FF9E882DC9FDF200920EF1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84FF9D042DC9040F00920EF1 /* Boera */;
-			targetProxy = 84FF9D212DC9041000920EF1 /* PBXContainerItemProxy */;
-		};
-		84FF9D462DC9055100920EF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84FF9D372DC9055100920EF1 /* Boera Watch Watch App */;
-			targetProxy = 84FF9D452DC9055100920EF1 /* PBXContainerItemProxy */;
-		};
-		84FF9D502DC9055100920EF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84FF9D372DC9055100920EF1 /* Boera Watch Watch App */;
-			targetProxy = 84FF9D4F2DC9055100920EF1 /* PBXContainerItemProxy */;
-		};
-		84FF9D572DC9055100920EF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84FF9D372DC9055100920EF1 /* Boera Watch Watch App */;
-			targetProxy = 84FF9D562DC9055100920EF1 /* PBXContainerItemProxy */;
+			target = 84FF9E672DC9FDF100920EF1 /* Boera */;
+			targetProxy = 84FF9E872DC9FDF200920EF1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		84FF9D2A2DC9041000920EF1 /* Debug */ = {
+		84FF9E902DC9FDF200920EF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -539,7 +316,7 @@
 			};
 			name = Debug;
 		};
-		84FF9D2B2DC9041000920EF1 /* Release */ = {
+		84FF9E912DC9FDF200920EF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -571,7 +348,7 @@
 			};
 			name = Release;
 		};
-		84FF9D2C2DC9041000920EF1 /* Debug */ = {
+		84FF9E922DC9FDF200920EF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -635,7 +412,7 @@
 			};
 			name = Debug;
 		};
-		84FF9D2D2DC9041000920EF1 /* Release */ = {
+		84FF9E932DC9FDF200920EF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -692,7 +469,7 @@
 			};
 			name = Release;
 		};
-		84FF9D2F2DC9041000920EF1 /* Debug */ = {
+		84FF9E952DC9FDF200920EF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -711,7 +488,7 @@
 			};
 			name = Debug;
 		};
-		84FF9D302DC9041000920EF1 /* Release */ = {
+		84FF9E962DC9FDF200920EF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -730,7 +507,7 @@
 			};
 			name = Release;
 		};
-		84FF9D322DC9041000920EF1 /* Debug */ = {
+		84FF9E982DC9FDF200920EF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -747,7 +524,7 @@
 			};
 			name = Debug;
 		};
-		84FF9D332DC9041000920EF1 /* Release */ = {
+		84FF9E992DC9FDF200920EF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -761,214 +538,49 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Boera;
-			};
-			name = Release;
-		};
-		84FF9D5A2DC9055100920EF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Boera Watch Watch App/Boera Watch Watch App.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q87UDX5898;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Boera Watch";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.jules.Boera;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.jules.Boera.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 11.4;
-			};
-			name = Debug;
-		};
-		84FF9D5B2DC9055100920EF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Boera Watch Watch App/Boera Watch Watch App.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q87UDX5898;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Boera Watch";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.jules.Boera;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.jules.Boera.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 11.4;
-			};
-			name = Release;
-		};
-		84FF9D5E2DC9055100920EF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q87UDX5898;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.jules.Boera-Watch-Watch-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boera Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Boera Watch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 11.4;
-			};
-			name = Debug;
-		};
-		84FF9D5F2DC9055100920EF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q87UDX5898;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.jules.Boera-Watch-Watch-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boera Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Boera Watch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 11.4;
-			};
-			name = Release;
-		};
-		84FF9D612DC9055100920EF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q87UDX5898;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.jules.Boera-Watch-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "Boera Watch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 11.4;
-			};
-			name = Debug;
-		};
-		84FF9D622DC9055100920EF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q87UDX5898;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.jules.Boera-Watch-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "Boera Watch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 11.4;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84FF9D002DC9040F00920EF1 /* Build configuration list for PBXProject "Boera" */ = {
+		84FF9E632DC9FDF100920EF1 /* Build configuration list for PBXProject "Boera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84FF9D2C2DC9041000920EF1 /* Debug */,
-				84FF9D2D2DC9041000920EF1 /* Release */,
+				84FF9E922DC9FDF200920EF1 /* Debug */,
+				84FF9E932DC9FDF200920EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FF9D292DC9041000920EF1 /* Build configuration list for PBXNativeTarget "Boera" */ = {
+		84FF9E8F2DC9FDF200920EF1 /* Build configuration list for PBXNativeTarget "Boera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84FF9D2A2DC9041000920EF1 /* Debug */,
-				84FF9D2B2DC9041000920EF1 /* Release */,
+				84FF9E902DC9FDF200920EF1 /* Debug */,
+				84FF9E912DC9FDF200920EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FF9D2E2DC9041000920EF1 /* Build configuration list for PBXNativeTarget "BoeraTests" */ = {
+		84FF9E942DC9FDF200920EF1 /* Build configuration list for PBXNativeTarget "BoeraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84FF9D2F2DC9041000920EF1 /* Debug */,
-				84FF9D302DC9041000920EF1 /* Release */,
+				84FF9E952DC9FDF200920EF1 /* Debug */,
+				84FF9E962DC9FDF200920EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FF9D312DC9041000920EF1 /* Build configuration list for PBXNativeTarget "BoeraUITests" */ = {
+		84FF9E972DC9FDF200920EF1 /* Build configuration list for PBXNativeTarget "BoeraUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84FF9D322DC9041000920EF1 /* Debug */,
-				84FF9D332DC9041000920EF1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84FF9D592DC9055100920EF1 /* Build configuration list for PBXNativeTarget "Boera Watch Watch App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84FF9D5A2DC9055100920EF1 /* Debug */,
-				84FF9D5B2DC9055100920EF1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84FF9D5D2DC9055100920EF1 /* Build configuration list for PBXNativeTarget "Boera Watch Watch AppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84FF9D5E2DC9055100920EF1 /* Debug */,
-				84FF9D5F2DC9055100920EF1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84FF9D602DC9055100920EF1 /* Build configuration list for PBXNativeTarget "Boera Watch Watch AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84FF9D612DC9055100920EF1 /* Debug */,
-				84FF9D622DC9055100920EF1 /* Release */,
+				84FF9E982DC9FDF200920EF1 /* Debug */,
+				84FF9E992DC9FDF200920EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 84FF9CFD2DC9040F00920EF1 /* Project object */;
+	rootObject = 84FF9E602DC9FDF100920EF1 /* Project object */;
 }
