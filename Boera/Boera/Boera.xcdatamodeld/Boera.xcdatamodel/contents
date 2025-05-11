@@ -4,9 +4,14 @@
         <attribute name="alcoholic" optional="YES" attributeType="Boolean" defaultValueString="NO" allowsCloudEncryption="YES" usesScalarValueType="YES"/>
         <attribute name="alcoholPercentage" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="100" defaultValueString="0" allowsCloudEncryption="YES" usesScalarValueType="YES"/>
         <attribute name="name" optional="YES" attributeType="String" allowsCloudEncryption="YES"/>
+        <relationship name="ingriedients" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ingredient" inverseName="drink" inverseEntity="Ingredient"/>
     </entity>
     <entity name="DrinkEntry" representedClassName="DrinkEntry" syncable="YES" codeGenerationType="class">
         <attribute name="amount" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="10000" defaultValueString="250" allowsCloudEncryption="YES" usesScalarValueType="YES"/>
         <attribute name="timestamp" optional="YES" attributeType="Date" allowsCloudEncryption="YES" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Ingredient" representedClassName="Ingredient" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" allowsCloudEncryption="YES"/>
+        <relationship name="drink" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Drink" inverseName="ingriedients" inverseEntity="Drink"/>
     </entity>
 </model>

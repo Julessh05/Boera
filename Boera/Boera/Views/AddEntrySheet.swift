@@ -19,10 +19,33 @@ internal struct AddEntrySheet: View {
     
     var body: some View {
         NavigationStack {
-            Canvas {
-                _,_ in
-                // TODO: implement canvas
+            ZStack {
+                Canvas {
+                    context, size in
+                    let fillLevel = 0.5
+                    let waterHeight = size.height * fillLevel
+                    let waterRect = CGRect(
+                        x: 0,
+                        y: size.height - waterHeight,
+                        width: size.width,
+                        height: waterHeight
+                    )
+                    let waterPath = Path(waterRect)
+                    context.fill(waterPath, with: .color(Color.blue))
+                }
+                .mask {
+                    GlassShape()
+                }
+                GlassShape()
+                    .stroke(style: .init(lineWidth: 2))
+                    .foregroundStyle(Color.green)
+                GlassShape()
+                    .fill()
+                    .foregroundStyle(.red)
+                    .opacity(0.25)
             }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 32)
             .alert("Error saving", isPresented: $errSavingPresented) {
                 
             } message: {
