@@ -9,12 +9,18 @@ import SwiftUI
 
 @main
 struct BoeraApp: App {
-    let persistenceController = PersistenceController.shared
+    static private let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(
+                    \.managedObjectContext,
+                     BoeraApp.persistenceController.container.viewContext
+                )
+                .onAppear {
+                    SettingsHelper.updateSettings()
+                }
         }
     }
 }

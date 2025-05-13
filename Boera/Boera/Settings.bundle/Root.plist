@@ -5,6 +5,31 @@
 	<key>StringsTable</key>
 	<string>Root</string>
 	<key>PreferenceSpecifiers</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>app information</string>
+			<key>FooterText</key>
+			<string>information about the app</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>app version</string>
+			<key>Key</key>
+			<string>app_version_setting</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>build version</string>
+			<key>Key</key>
+			<string>build_version_setting</string>
+		</dict>
+	</array>
 </dict>
 </plist>
